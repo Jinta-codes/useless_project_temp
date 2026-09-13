@@ -1,9 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>New OverThinker AI</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OverThink AI - You had a simple question. We made it complicated.</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to OverThinker AI</h1>
+
+  <!-- Top Controls -->
+  <nav class="top-nav">
+    <button id="audioToggleBtn" class="icon-btn" title="Toggle Sound">
+      <span id="audioIcon">🔊</span> SOUND
+    </button>
+  </nav>
+
+  <!-- Centered Interactive Card -->
+  <main id="mainCard" class="interrogation-card">
+    
+    <!-- Animated OverThink Bot Avatar -->
+    <div id="botWrapper" class="bot-container">
+      <svg class="bot-svg" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+        <!-- Antenna -->
+        <line x1="60" y1="18" x2="60" y2="34" stroke="#27272a" stroke-width="3.5" stroke-linecap="round"/>
+        <circle id="antennaOrb" class="antenna-light" cx="60" cy="14" r="7" fill="#38bdf8" stroke="#27272a" stroke-width="3"/>
+        
+        <!-- Ears / Bolts -->
+        <rect x="14" y="52" width="8" height="16" rx="4" fill="#94a3b8" stroke="#27272a" stroke-width="3"/>
+        <rect x="98" y="52" width="8" height="16" rx="4" fill="#94a3b8" stroke="#27272a" stroke-width="3"/>
+
+        <!-- Head / Body -->
+        <rect x="20" y="32" width="80" height="70" rx="22" fill="#ffffff" stroke="#27272a" stroke-width="3.5"/>
+        
+        <!-- Face Screen -->
+        <rect x="28" y="42" width="64" height="48" rx="14" fill="#f1f5f9" stroke="#27272a" stroke-width="2.5"/>
+
+        <!-- Sweat Drop (for Panic expression) -->
+        <path class="sweat-drop" d="M92 40 C92 37, 96 33, 96 33 C96 33, 100 37, 100 40 C100 43, 97 45, 94 45 C92 45, 92 43, 92 40 Z" fill="#38bdf8"/>
+
+        <!-- Facial Features (Dynamically rendered via SVG innerHTML) -->
+        <g id="botFace">
+          <!-- Default Happy: ◠ ◠ -->
+          <circle cx="46" cy="62" r="5.5" fill="#27272a"/>
+          <circle cx="74" cy="62" r="5.5" fill="#27272a"/>
+          <circle cx="48" cy="60" r="1.8" fill="#ffffff"/>
+          <circle cx="76" cy="60" r="1.8" fill="#ffffff"/>
+          <path d="M53 73 Q60 80 67 73" stroke="#27272a" stroke-width="3" stroke-linecap="round" fill="none"/>
+        </g>
+      </svg>
+    </div>
+
+    <!-- Speech Bubble -->
+    <div id="speechBubble" class="speech-bubble">
+      You had a simple question.<br>We made it complicated.
+    </div>
+
+    <!-- Active Step Content Container -->
+    <div id="screenContent" class="step-container">
+      <!-- Injected dynamically by app.js -->
+    </div>
+
+  </main>
+
+  <script src="config.js"></script>
+<script src="audio.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
