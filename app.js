@@ -25,6 +25,86 @@ document.addEventListener('DOMContentLoaded', () => {
   let totalWastedSeconds = 43;
   let liveTimerInterval = null;
 
+
+  
+async function generateGeminiQuestions(userQuestion) {
+  const prompt = `
+You are "OverThink AI", a fake AI that dramatically overcomplicates simple decisions.
+
+The user asked:
+"${userQuestion}"
+
+Generate EXACTLY 6 questions.
+
+Rules:
+- First 3 questions should be genuinely relevant.
+- Last 3 should become increasingly absurd and funny.
+- Keep every question under 15 words.
+- Return ONLY a JSON array.
+
+Example:
+[
+ "How thirsty are you?",
+ "When did you last drink water?",
+ "What's the temperature?",
+ "How many pigeons are judging you?",
+ "Would your chair approve?",
+ "What is your relationship with Tuesdays?"
+]
+`;
+
+  
+
+try {
+  const response = await fetch(
+    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        contents: [
+          {
+            parts: [{ text: prompt }]
+          }
+        ]
+      })
+    }
+  );
+
+  const data = await response.json();
+
+  if (!data.candidates || !data.candidates.length) {
+    throw new Error("No Gemini response");
+  }
+
+  let text = data.candidates[0].content.parts[0].text.trim();
+
+  text = text.replace(/```json|```/g, "").trim();
+
+  const start = text.indexOf("[");
+  const end = text.lastIndexOf("]");
+
+  if (start !== -1 && end !== -1) {
+    text = text.slice(start, end + 1);
+  }
+
+  return JSON.parse(text);
+} catch (err) {
+    console.error(err);
+
+    return [
+      "How important is this?",
+      "When did you last think about it?",
+      "What's the current temperature?",
+      "How many pigeons are judging you?",
+      "Would your chair approve?",
+      "What is your relationship with Tuesdays?"
+    ];
+  }
+}
+
   // Audio Toggle
   audioToggleBtn.addEventListener('click', () => {
     audio.init();
@@ -516,24 +596,55 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
 
-    const submitQuestion = () => {
-      const val = qInput.value.trim();
-      if (!val) return;
-      userQuestion = val;
-      startTime = Date.now();
-      audio.playPop();
+    
+const submitQuestion = async () => {
+  const val = qInput.value.trim();
+  if (!val) return;
 
-      setBotExpression('thinking');
-      speechBubble.innerHTML = `"Interesting.<br>Unfortunately, this is more complicated than I expected."`;
-      screenContent.innerHTML = `<div style="font-size: 14px; color: var(--text-dim); padding: 20px 0;">Identifying unnecessary variables...</div>`;
+  userQuestion = val;
+  startTime = Date.now();
+  audio.playPop();
 
-      setTimeout(() => {
-        const topic = detectQuestionType(userQuestion);
-        questionChain = generateQuestionSet(topic);
-        currentChainIndex = 0;
-        showNextQuestion();
-      }, 1400);
-    };
+  setBotExpression("thinking");
+  speechBubble.innerHTML = `"Interesting.<br>Unfortunately, this is more complicated than I expected."`;
+
+  screenContent.innerHTML = `
+    <div style="font-size:14px;color:var(--text-dim);padding:20px 0;">
+      Identifying unnecessary variables...
+    </div>
+  `;
+
+  setTimeout(async () => {
+    const topic = detectQuestionType(userQuestion);
+
+    // Get personalized questions from Gemini
+    // Get your original flow first (keeps all existing features)
+questionChain = generateQuestionSet(topic);
+
+// Get Gemini's personalized opening questions
+const geminiQuestions = await generateGeminiQuestions(userQuestion);
+
+// Replace ONLY the normal question cards with Gemini questions
+let geminiIndex = 0;
+
+questionChain = questionChain.map(item => {
+  if (item.type || geminiIndex >= geminiQuestions.length) {
+    return item; // Keep temperature, weather and other special cards
+  }
+
+  return {
+    speech: `"${geminiQuestions[geminiIndex++]}"`,
+    options: item.options // Keep your funny answer choices
+  };
+});
+
+currentChainIndex = 0;
+showNextQuestion();
+
+    currentChainIndex = 0;
+    showNextQuestion();
+  }, 1400);
+};
 
     document.getElementById('btnOverthink').addEventListener('click', submitQuestion);
     qInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') submitQuestion(); });
