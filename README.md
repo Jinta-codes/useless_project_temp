@@ -141,7 +141,7 @@ http://localhost:8000
 
 **Screenshot 2:** Shows the user entering an everyday question and the AI beginning its unnecessary questioning process.
 
-<img width="1912" height="872" alt="Screenshot 2026-09-13 162849" src="https://github.com/user-attachments/assets/f226aef4-3622-4e5d-87fc-b7439d1e3dfa" />
+<img width="1912" height="852" alt="image" src="https://github.com/user-attachments/assets/603c4915-67ae-4592-98db-7dbe52be42b8" />
 
 
 **Screenshot 3:** Shows the fake telemetry analysis, slowly progressing percentage, data charts, and ragebait controls.
