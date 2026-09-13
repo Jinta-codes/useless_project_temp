@@ -87,13 +87,13 @@ The project is completely software-based.
 Clone the repository:
 
 ```bash
-git clone (https://github.com/Jinta-codes/ useless project temp)
+git clone https://github.com/Jinta-codes/ useless project temp
 ```
 
 Navigate to the project folder:
 
 ```bash
-cd OverThink-AI
+cd overythink-ai
 ```
 
 No major external dependencies are required.
