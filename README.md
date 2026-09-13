@@ -1,4 +1,4 @@
-# OverThink AI 🤖
+<img width="1917" height="862" alt="Screenshot 2026-09-13 162607" src="https://github.com/user-attachments/assets/4ce56dfe-03eb-452b-9ab3-261dc04a4473" /># OverThink AI 🤖
 
 ## Basic Details
 
@@ -130,28 +130,28 @@ http://localhost:8000
 
 ### Screenshots
 
-![Screenshot1](<img width="1917" height="862" alt="Screenshot 2026-09-13 162607" src="https://github.com/user-attachments/assets/ffdad030-d8eb-49d0-8c0d-cacf81bfa3f7" />
-)
+([Uploading Screenshot 2026-09-13 162607.png…]
+
 
 **Screenshot 1:** Shows the minimalist OverThink AI welcome screen with the cartoon robot and the opening Malayalam-style message.
 
-![Screenshot2]<img width="1916" height="858" alt="Screenshot 2026-09-13 162801" src="https://github.com/user-attachments/assets/f0ff91fa-9dc5-4d78-ba30-3bf682a8853e" />
+<img width="1916" height="858" alt="Screenshot 2026-09-13 162801" src="https://github.com/user-attachments/assets/f0ff91fa-9dc5-4d78-ba30-3bf682a8853e" />
 
 
 **Screenshot 2:** Shows the user entering an everyday question and the AI beginning its unnecessary questioning process.
 
-![Screenshot3](<img width="1916" height="858" alt="image" src="https://github.com/user-attachments/assets/9b9108c2-fcdc-47f1-a1df-d9216dd23a5f" />
-)
+<img width="1912" height="872" alt="Screenshot 2026-09-13 162849" src="https://github.com/user-attachments/assets/f226aef4-3622-4e5d-87fc-b7439d1e3dfa" />
+
 
 **Screenshot 3:** Shows the fake telemetry analysis, slowly progressing percentage, data charts, and ragebait controls.
 
-![Screenshot4](<img width="1917" height="862" alt="Screenshot 2026-09-13 162907" src="https://github.com/user-attachments/assets/063d3660-d79d-4700-af4e-969f7a6e9e83" />
-)
+<img width="1917" height="862" alt="Screenshot 2026-09-13 162907" src="https://github.com/user-attachments/assets/f424bcd6-03ed-4834-8131-0e45e892412d" />
+
 
 **Screenshot 4:** Shows Kunjapan, Bibinmon, and Shibumon arguing about the answer to the user's original question.
 
-![Screenshot5](<img width="1917" height="860" alt="image" src="https://github.com/user-attachments/assets/3bfc0380-9d2f-41a9-858d-e5e5ed65fcff" />
-)
+<img width="1917" height="867" alt="Screenshot 2026-09-13 165342" src="https://github.com/user-attachments/assets/d3278e6f-a419-48fa-b52d-c8cdb9ee5f98" />
+
 
 **Screenshot 5:** Shows the final **"YOU DECIDE"** verdict and the dramatic congratulatory letter.
 
@@ -211,15 +211,15 @@ The video demonstrates the complete OverThink AI experience, including entering 
 
 # Team Contributions
 
-**[Jinta]:** Frontend design, UI development, cartoon robot integration, animations, Robot argument system, sound effects, ragebait interactions and final verdict sequence, documentation and presentation
+**Jinta:** Frontend design, UI development, cartoon robot integration, animations, Robot argument system, sound effects, ragebait interactions and final verdict sequence, documentation and presentation
 
 
-**[Lekshmi]:** JavaScript logic, question-generation system, question-dependent decision flow,Telemetry system, progress animations, data charts, timer and analysis logic,Testing, debugging, deployment
+**Lekshmi:** JavaScript logic, question-generation system, question-dependent decision flow,Telemetry system, progress animations, data charts, timer and analysis logic,Testing, debugging, deployment
 
 ---
 
 ## 🏆 Project Tagline
 
-> **"You had a simple question. We made it complicated."** 🤖
+> **"Because simple decision are Overrated."** 🤖
 
 **OverThink AI — An AI that overthinks everything so you don't have to.**
