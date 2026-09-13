@@ -130,7 +130,8 @@ http://localhost:8000
 
 ### Screenshots
 
-([Uploading Screenshot 2026-09-13 162607.png…]
+<img width="1917" height="862" alt="Screenshot 2026-09-13 162607" src="https://github.com/user-attachments/assets/fbe6a177-719c-40ab-bfa0-dcd73a816cda" />
+
 
 
 **Screenshot 1:** Shows the minimalist OverThink AI welcome screen with the cartoon robot and the opening Malayalam-style message.
