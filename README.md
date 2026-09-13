@@ -1,176 +1,320 @@
-# 🤔 OverThink AI — Dedicated Robot Argument & Accelerate Ragebait Edition
+# OverThink AI 🤖🎯
 
-> *"You had a simple question. We made it complicated."*
+## Basic Details
 
-**OverThink AI** is an intentionally useless, ragebaiting decision-making web application built with a **minimalist cartoon "decision interrogation"** aesthetic. One single card on screen at all times, step by step, zero scrolling.
+**Team Name:** [Brain Not Foud]
+
+### Team Members
+
+* **Member 1:** [Jinta Maria Joby] - [Mar Athanasius College of Engineering]
+* **Member 2:** [Lekshmi Sujith] - [Mar Athanasius College of Engineering]
+---
+
+## Project Description
+
+**OverThink AI** is an intentionally useless AI that turns simple everyday questions into unnecessarily complicated decisions. It asks question-specific and ridiculous questions, performs fake analysis, makes robots argue about the answer, and ultimately wastes the user's time before giving the final verdict: **"YOU DECIDE."** 😂
 
 ---
 
-## 🎭 1. The Complete Interaction Flow
+## The Problem (that doesn't exist)
+
+People make simple decisions way too quickly.
+
+Why should anyone decide something in 3 seconds when an AI can waste 2 minutes asking about the weather, pigeons, aquifers, emotions, and the user's relationship with Tuesdays?
+
+---
+
+## The Solution (that nobody asked for)
+
+OverThink AI takes any simple question and **overthinks it to an absurd level**.
+
+It:
+
+* Generates questions based on the user's original question.
+* Adds completely unnecessary silly questions.
+* Shows fake telemetry and data charts.
+* Takes an unnecessarily long time to "analyse."
+* Lets the user try to accelerate the process—only to send the progress backwards.
+* Makes three AI robots **Kunjapan, Bibinmon, and Shibumon** argue about the answer.
+* Asks ridiculous final questions.
+* Reanalyses the decision.
+* Finally tells the user **"YOU DECIDE."**
+* Sends a dramatic letter congratulating the user for wasting their time. 🤖😂
+
+---
+
+# Technical Details
+
+## Technologies/Components Used
+
+### For Software:
+
+**Languages used:**
+
+* HTML
+* CSS
+* JavaScript
+
+**Frameworks used:**
+
+* None
+
+**Libraries/APIs used:**
+
+* Web Audio API
+* Weather API *(if enabled)*
+
+**Tools used:**
+
+* Visual Studio Code
+* Git
+* GitHub
+* Web Browser
+
+### For Hardware:
+
+**No hardware required.**
+
+The project is completely software-based.
+
+---
+
+# Implementation
+
+## For Software:
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone [GitHub Repository URL]
+```
+
+Navigate to the project folder:
+
+```bash
+cd OverThink-AI
+```
+
+No major external dependencies are required.
+
+---
+
+## Run
+
+The project can be run using a local development server.
+
+For example, with VS Code:
+
+1. Open the project folder in VS Code.
+2. Open `index.html`.
+3. Run using **Live Server**.
+
+Or using Python:
+
+```bash
+python -m http.server 8000
+```
+
+Then open:
 
 ```text
-┌──────────────────────────────────────────────┐
-│                  WELCOME                     │
-│                    🤖                        │
-│   "Than ippo entinado ingottu valinju        │
-│    keri vanne"                               │
-│                  [ START ]                   │
-└──────────────────────┬───────────────────────┘
-                       ↓
-┌──────────────────────────────────────────────┐
-│               USER QUESTION                  │
-│           "What's bothering you?"            │
-│         [ e.g. Should I drink water? ]       │
-│              [ OVERTHINK IT ]                │
-└──────────────────────┬───────────────────────┘
-                       ↓
-            DYNAMIC QUESTION ENGINE
-            (water / study / sleep / pizza /
-             text / hackathon / general)
-                       ↓
-┌──────────────────────────────────────────────┐
-│       TOPIC & SILLED QUESTION CHAIN          │
-│ - 3 Contextual Topic Questions               │
-│ - Interactive Temperature & Weather Cards    │
-│ - 3 Randomized Common Silly Questions        │
-│   (Pigeon judgment count, Aquifer mood, etc) │
-└──────────────────────┬───────────────────────┘
-                       ↓
-┌──────────────────────────────────────────────┐
-│        SEPARATE TELEMETRY SCREEN             │
-│ - Animated Cartoon Sparklines (Complexity,   │
-│   Confidence, Confusion, Uselessness)        │
-│ - Live Elapsed Time Counter                  │
-│ - Slow Progress Meter: 67% -> 99.5%          │
-│ - [ ↻ ] Refresh: "Nice Try..." 😡            │
-│ - [ ⚡ ACCELERATE ] Ragebait: Progress       │
-│   falls backward with dramatic fail sound!   │
-└──────────────────────┬───────────────────────┘
-                       ↓
-┌──────────────────────────────────────────────┐
-│       DEDICATED ROBOT ARGUMENT SCREEN        │
-│   🤖 Kunjapan  ↔  🤖 Bibinmon  ↔  🤖 Shibumon│
-│   (Full body: 2 arms, 2 legs, roller wheels) │
-│   Argue specifically about the user question:│
-│   "Drink it! Hydration is necessary!"        │
-│   "No! Don't drink it!"                      │
-│   "According to my analysis... I have no     │
-│    idea." 😂                                 │
-└──────────────────────┬───────────────────────┘
-                       ↓
-┌──────────────────────────────────────────────┐
-│             ⚠️ TRAP QUESTION                 │
-│         "Wait... one final question."        │
-│          "Are you really thirsty?"           │
-│                                              │
-│         [ YES ]            [ NO ]            │
-│            ↑                                 │
-│    (YES dodges cursor at all costs!)         │
-└──────────────────────┬───────────────────────┘
-                       │ Forced to click [ NO ]
-                       ↓
-┌──────────────────────────────────────────────┐
-│             DEADPAN BOT REACTION             │
-│                    🤖 😐                     │
-│    "Then why did you ask me in the           │
-│     first place?"                            │
-│    (Heavy awkward silence...)                │
-│    "Maybe... okay fine. I'll reanalyse."     │
-└──────────────────────┬───────────────────────┘
-                       ↓
-┌──────────────────────────────────────────────┐
-│          REANALYSIS WITH TELEMETRY           │
-│   Complexity: 99% | Confusion: 172%          │
-│   Uselessness: 100%                          │
-│   Animated Sparklines & Accelerate Trap      │
-└──────────────────────┬───────────────────────┘
-                       ↓
-┌──────────────────────────────────────────────┐
-│           STAGE 1: VERDICT CARD              │
-│                    🤖 😎                     │
-│                 YOU DECIDE.                  │
-│       (Calculating final statement...)       │
-└──────────────────────┬───────────────────────┘
-                       ↓
-┌──────────────────────────────────────────────┐
-│     STAGE 2: ROBOTS RUN IN & MOCK            │
-│   🤖 Kunjapan: "43 seconds!"                 │
-│   🤖 Bibinmon: "For THAT question?!"         │
-│   🤖 Shibumon: "Worth every second."         │
-│   *Throwing closed letter...*  ✉️            │
-└──────────────────────┬───────────────────────┘
-                       ↓
-┌──────────────────────────────────────────────┐
-│      STAGE 3: DRAMATIC LETTER UNROLL         │
-│               📜✨ (Scroll)                  │
-│              CONGRATULATIONS!                │
-│    You just wasted X seconds on something    │
-│    that could have been completed in         │
-│                 3 SECONDS.                   │
-│                                              │
-│               [ AGAIN 🔄 ]                   │
-└──────────────────────────────────────────────┘
+http://localhost:8000
 ```
 
 ---
 
-## 🎨 2. Full-Body Cartoon Robot Design
+# Project Documentation
 
-All robots feature full cartoon anatomy matching the reference style:
-- **Round cartoon heads** with side ear bolts and glowing antennas.
-- **Digital face screens** with 14+ dynamic facial expressions (`🙂`, `👀`, `🤔`, `😏`, `😰`, `😡`, `😐`, `🤨`, `😑`, `😂`, `😎`, etc.).
-- **Two proper arms & hands**: Actively gesture, point at each other, throw hands up in the air (`\o/`), and flail during arguments.
-- **Two legs & roller wheels/feet**: Dual roller wheels with color-matched hubcaps that bob and glide across the stage.
-- **The Three Named Characters**:
-  - **🤖 Kunjapan**: Orange chest plate (`#f97316`), supremely confident his answer is right.
-  - **🤖 Bibinmon**: Red chest plate (`#ef4444`), fiercely contrarian, questions everything Kunjapan says.
-  - **🤖 Shibumon**: Green/Emerald chest plate (`#10b981`), confusing self-proclaimed "expert" who concludes with absurd anticlimaxes.
+## For Software:
 
----
+### Screenshots
 
-## ⚡ 3. The New Accelerate Ragebait Button
+![Screenshot1](<img width="1917" height="862" alt="Screenshot 2026-09-13 162607" src="https://github.com/user-attachments/assets/ffdad030-d8eb-49d0-8c0d-cacf81bfa3f7" />
+)
 
-Positioned right below the slow progress meter in both **Telemetry** and **Reanalysis**:
-- Clicking `[ ⚡ ACCELERATE PROCESS ]` triggers:
-  1. A cartoon descending slide whistle / fail buzz (`playAccelerateFail()`).
-  2. A violent card shake animation.
-  3. **The progress meter immediately plunges backward** (e.g., 99.3% → 64.0%).
-  4. Displays the mocking banner:
-     > **“You wanted it faster?”**  
-     > **“Acceleration successful. Unfortunately, backwards.” ⚡⏪**
-  5. The progress resumes inching forward painfully slowly.
+**Screenshot 1:** Shows the minimalist OverThink AI welcome screen with the cartoon robot and the opening Malayalam-style message.
 
----
+![Screenshot2](Add screenshot of question screen here)
 
-## 🔊 4. Procedural Cartoon Web Audio API
+**Screenshot 2:** Shows the user entering an everyday question and the AI beginning its unnecessary questioning process.
 
-Zero external MP3/WAV files, 100% synthesized in the browser via Web Audio:
-- `playPop()`: High-pitch sine pop for standard clicks.
-- `playBloop()`: Soft bubbly bloop for chip selections.
-- `playBoing()`: Spring bounce for goofy options.
-- `playBonk()`: Low-pitch bonk for snappy robotic arguments.
-- `playErrorBuzz()`: Harsh sawtooth buzz for refresh ragebait.
-- `playAccelerateFail()`: Dramatic pitch-swept slide whistle dropping from 420Hz to 65Hz.
-- `playRobotChatter()`: Staccato square-wave robotic chatter for speaking turns.
-- `playWhoosh()`: Pitch-swept whoosh for the dodging YES button and flying letter.
-- `playLetterOpenFanfare()`: Triumphant 4-note cartoon fanfare (C5, E5, G5, C6) on scroll reveal.
-- `playSadTrombone()`: Downward slide trombone for disappointment.
+![Screenshot3](<img width="1916" height="858" alt="image" src="https://github.com/user-attachments/assets/9b9108c2-fcdc-47f1-a1df-d9216dd23a5f" />
+)
+
+**Screenshot 3:** Shows the fake telemetry analysis, slowly progressing percentage, data charts, and ragebait controls.
+
+![Screenshot4](<img width="1917" height="862" alt="Screenshot 2026-09-13 162907" src="https://github.com/user-attachments/assets/063d3660-d79d-4700-af4e-969f7a6e9e83" />
+)
+
+**Screenshot 4:** Shows Kunjapan, Bibinmon, and Shibumon arguing about the answer to the user's original question.
+
+![Screenshot5](<img width="1917" height="860" alt="image" src="https://github.com/user-attachments/assets/3bfc0380-9d2f-41a9-858d-e5e5ed65fcff" />
+)
+
+**Screenshot 5:** Shows the final **"YOU DECIDE"** verdict and the dramatic congratulatory letter.
 
 ---
 
-## 💻 5. How to Run
+## Diagrams
 
-### Local Browser
-Open `index.html` located at:
-`C:\Users\Lechu\.gemini\antigravity\scratch\overthink-ai\index.html`
+![Workflow](                    ┌─────────────────┐
+                    │      START      │
+                    └────────┬────────┘
+                             ↓
+                ┌───────────────────────┐
+                │  Enter Your Question  │
+                └───────────┬───────────┘
+                            ↓
+              ┌──────────────────────────┐
+              │ Analyze Question Topic   │
+              └────────────┬─────────────┘
+                           ↓
+          ┌─────────────────────────────────┐
+          │ Generate Question Set           │
+          │ • Question-specific questions   │
+          │ • Weather / temperature         │
+          │ • Common silly questions        │
+          └───────────────┬─────────────────┘
+                          ↓
+                ┌──────────────────┐
+                │ Ask Questions    │
+                │ One by One       │
+                └────────┬─────────┘
+                         ↓
+              ┌──────────────────────┐
+              │   TELEMETRY         │
+              │   ANALYSIS          │
+              │                     │
+              │ • Progress meter    │
+              │ • Fake metrics      │
+              │ • Data charts       │
+              │ • Time wasted       │
+              └──────────┬───────────┘
+                         ↓
+                ┌──────────────────┐
+                │ Very Slow        │
+                │ Progress to 99%  │
+                └────────┬─────────┘
+                         ↓
+             ┌────────────────────────┐
+             │ Refresh / Accelerate   │
+             │       Ragebait         │
+             └───────────┬────────────┘
+                         ↓
+             ┌────────────────────────┐
+             │   3 Robot Argument     │
+             │ Kunjapan • Bibinmon    │
+             │       • Shibumon       │
+             └───────────┬────────────┘
+                         ↓
+             ┌────────────────────────┐
+             │   Final Trap Question  │
+             │   "Are you really      │
+             │        thirsty?"       │
+             └───────────┬────────────┘
+                         ↓
+                 ┌──────────────┐
+                 │   NO ONLY    │
+                 │ YES RUNS AWAY│
+                 └──────┬───────┘
+                        ↓
+             ┌────────────────────────┐
+             │ "Then why did you ask  │
+             │  me in the first place?"│
+             └───────────┬────────────┘
+                         ↓
+                ┌─────────────────┐
+                │  REANALYSING... │
+                └────────┬────────┘
+                         ↓
+                ┌─────────────────┐
+                │   YOU DECIDE.   │
+                └────────┬────────┘
+                         ↓
+              ┌─────────────────────┐
+              │ Robots Run In &     │
+              │ Make Fun of User   │
+              └──────────┬──────────┘
+                         ↓
+                   ┌───────────┐
+                   │ ✉️ Letter │
+                   └─────┬─────┘
+                         ↓
+               ┌────────────────────┐
+               │  DRAMATIC REVEAL  │
+               └─────────┬──────────┘
+                         ↓
+              ┌────────────────────────┐
+              │   CONGRATULATIONS!     │
+              │                        │
+              │ You wasted XX seconds  │
+              │ on something that could │
+              │ be done in 3 seconds.   │
+              └────────────────────────┘)
 
-### Local Python Server
-```powershell
-cd C:\Users\Lechu\.gemini\antigravity\scratch\overthink-ai
-python -m http.server 8080
+**Workflow:** The application follows a sequential flow:
+
+```text
+START
+  ↓
+USER ENTERS QUESTION
+  ↓
+QUESTION-SPECIFIC QUESTIONS
+  +
+COMMON SILLY QUESTIONS
+  ↓
+TELEMETRY ANALYSIS
+  ↓
+SLOW 99% PROGRESS
+  ↓
+ROBOT ARGUMENT
+  ↓
+FINAL TRAP QUESTION
+  ↓
+REANALYSIS
+  ↓
+YOU DECIDE
+  ↓
+ROBOTS MOCK USER
+  ↓
+DRAMATIC LETTER
+  ↓
+FINAL TIME-WASTING MESSAGE
 ```
-Then visit `http://localhost:8080`.
 
-### In-Editor Single-File Artifact Preview
-Open:
-`C:\Users\Lechu\.gemini\antigravity\brain\307583dc-0b1e-42f0-9c25-ec63daca0090\overthink_ai.html`
+---
+
+# For Hardware:
+
+**Not Applicable — OverThink AI is a software-only project.**
+
+---
+
+# Project Demo
+
+## Video
+
+**[Add your demo video link here]**
+
+The video demonstrates the complete OverThink AI experience, including entering a question, answering unnecessary and silly questions, fake telemetry analysis, slow progress, the accelerate/refresh ragebait interactions, the three robots arguing, reanalysis, and the final time-wasting verdict.
+
+---
+
+---
+
+# Team Contributions
+
+**[Jinta]:** Frontend design, UI development, cartoon robot integration, animations, Robot argument system, sound effects, ragebait interactions and final verdict sequence, documentation and presentation
+
+
+**[Lekshmi]:** JavaScript logic, question-generation system, question-dependent decision flow,Telemetry system, progress animations, data charts, timer and analysis logic,Testing, debugging, deployment
+
+---
+
+## 🏆 Project Tagline
+
+> **"You had a simple question. We made it complicated."** 🤖
+
+**OverThink AI — An AI that overthinks everything so you don't have to.**
