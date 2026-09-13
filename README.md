@@ -1,13 +1,13 @@
-# OverThink AI 🤖🎯
+# OverThink AI 🤖
 
 ## Basic Details
 
-**Team Name:** [Brain Not Foud]
+**Team Name:** Brain Not Found
 
 ### Team Members
 
-* **Member 1:** [Jinta Maria Joby] - [Mar Athanasius College of Engineering]
-* **Member 2:** [Lekshmi Sujith] - [Mar Athanasius College of Engineering]
+* **Member 1:** Jinta Maria Joby - Mar Athanasius College of Engineering
+* **Member 2:** Lekshmi Sujith - Mar Athanasius College of Engineering
 ---
 
 ## Project Description
@@ -62,7 +62,6 @@ It:
 **Libraries/APIs used:**
 
 * Web Audio API
-* Weather API *(if enabled)*
 
 **Tools used:**
 
@@ -88,7 +87,7 @@ The project is completely software-based.
 Clone the repository:
 
 ```bash
-git clone [GitHub Repository URL]
+git clone (https://github.com/Jinta-codes/ useless project temp)
 ```
 
 Navigate to the project folder:
