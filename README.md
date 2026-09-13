@@ -93,7 +93,7 @@ git clone https://github.com/Jinta-codes/ useless project temp
 Navigate to the project folder:
 
 ```bash
-cd overythink-ai
+cd overthink-ai
 ```
 
 No major external dependencies are required.
@@ -135,7 +135,8 @@ http://localhost:8000
 
 **Screenshot 1:** Shows the minimalist OverThink AI welcome screen with the cartoon robot and the opening Malayalam-style message.
 
-![Screenshot2](Add screenshot of question screen here)
+![Screenshot2]<img width="1916" height="858" alt="Screenshot 2026-09-13 162801" src="https://github.com/user-attachments/assets/f0ff91fa-9dc5-4d78-ba30-3bf682a8853e" />
+
 
 **Screenshot 2:** Shows the user entering an everyday question and the AI beginning its unnecessary questioning process.
 
@@ -157,101 +158,6 @@ http://localhost:8000
 ---
 
 ## Diagrams
-
-![Workflow](                    ┌─────────────────┐
-                    │      START      │
-                    └────────┬────────┘
-                             ↓
-                ┌───────────────────────┐
-                │  Enter Your Question  │
-                └───────────┬───────────┘
-                            ↓
-              ┌──────────────────────────┐
-              │ Analyze Question Topic   │
-              └────────────┬─────────────┘
-                           ↓
-          ┌─────────────────────────────────┐
-          │ Generate Question Set           │
-          │ • Question-specific questions   │
-          │ • Weather / temperature         │
-          │ • Common silly questions        │
-          └───────────────┬─────────────────┘
-                          ↓
-                ┌──────────────────┐
-                │ Ask Questions    │
-                │ One by One       │
-                └────────┬─────────┘
-                         ↓
-              ┌──────────────────────┐
-              │   TELEMETRY         │
-              │   ANALYSIS          │
-              │                     │
-              │ • Progress meter    │
-              │ • Fake metrics      │
-              │ • Data charts       │
-              │ • Time wasted       │
-              └──────────┬───────────┘
-                         ↓
-                ┌──────────────────┐
-                │ Very Slow        │
-                │ Progress to 99%  │
-                └────────┬─────────┘
-                         ↓
-             ┌────────────────────────┐
-             │ Refresh / Accelerate   │
-             │       Ragebait         │
-             └───────────┬────────────┘
-                         ↓
-             ┌────────────────────────┐
-             │   3 Robot Argument     │
-             │ Kunjapan • Bibinmon    │
-             │       • Shibumon       │
-             └───────────┬────────────┘
-                         ↓
-             ┌────────────────────────┐
-             │   Final Trap Question  │
-             │   "Are you really      │
-             │        thirsty?"       │
-             └───────────┬────────────┘
-                         ↓
-                 ┌──────────────┐
-                 │   NO ONLY    │
-                 │ YES RUNS AWAY│
-                 └──────┬───────┘
-                        ↓
-             ┌────────────────────────┐
-             │ "Then why did you ask  │
-             │  me in the first place?"│
-             └───────────┬────────────┘
-                         ↓
-                ┌─────────────────┐
-                │  REANALYSING... │
-                └────────┬────────┘
-                         ↓
-                ┌─────────────────┐
-                │   YOU DECIDE.   │
-                └────────┬────────┘
-                         ↓
-              ┌─────────────────────┐
-              │ Robots Run In &     │
-              │ Make Fun of User   │
-              └──────────┬──────────┘
-                         ↓
-                   ┌───────────┐
-                   │ ✉️ Letter │
-                   └─────┬─────┘
-                         ↓
-               ┌────────────────────┐
-               │  DRAMATIC REVEAL  │
-               └─────────┬──────────┘
-                         ↓
-              ┌────────────────────────┐
-              │   CONGRATULATIONS!     │
-              │                        │
-              │ You wasted XX seconds  │
-              │ on something that could │
-              │ be done in 3 seconds.   │
-              └────────────────────────┘)
 
 **Workflow:** The application follows a sequential flow:
 
@@ -295,7 +201,7 @@ FINAL TIME-WASTING MESSAGE
 
 ## Video
 
-**[Add your demo video link here]**
+**(https://drive.google.com/file/d/1g8vbSl5y9YnOe4nFn0xm5NzXutT_QnSA/view?usp=drivesdk)**
 
 The video demonstrates the complete OverThink AI experience, including entering a question, answering unnecessary and silly questions, fake telemetry analysis, slow progress, the accelerate/refresh ragebait interactions, the three robots arguing, reanalysis, and the final time-wasting verdict.
 
